@@ -15,7 +15,7 @@ appTemplate:
   customDocumentTitleEnabled: false
   preloadedAppJSLinks:
     array: []
-  version: null
+  version: 2.66.90
   responsiveLayoutDisabled: false
   createdAt: null
   loadingIndicatorsDisabled: false
