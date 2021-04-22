@@ -87,7 +87,7 @@ appTemplate:
                 - columnMappersRenderAsHTML:
                     ordered: []
                 - showRefreshButton: true
-                - pageSize: '10'
+                - pageSize: 5
                 - useDynamicColumnSettings: false
                 - actionButtonPosition: left
                 - bulkUpdateAction: ''
@@ -145,7 +145,7 @@ appTemplate:
                 row: 1
                 col: 2
                 height: 8
-                width: 8
+                width: 9
             createdAt: 2021-04-22T04:25:50.252Z
   urlFragmentDefinitions: []
   appStyles: ''
