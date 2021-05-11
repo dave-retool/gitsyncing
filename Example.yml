@@ -13,24 +13,76 @@ appTemplate:
             template:
               ordered:
                 - queryRefreshTime: ''
+                - records: ''
+                - databasePasswordOverride: ''
                 - queryDisabledMessage: ''
                 - successMessage: ''
                 - queryDisabled: ''
+                - playgroundQuerySaveId: 0
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: true
+                - showFailureToaster: true
                 - query: ''
+                - playgroundQueryUuid: ''
+                - playgroundQueryId: null
                 - privateParams: []
                 - triggersOnSuccess: []
+                - runWhenPageLoadsDelay: ''
                 - data: null
+                - recordId: ''
+                - importedQueryInputs:
+                    ordered: []
+                - showSuccessConfetti: false
+                - isImported: false
                 - showSuccessToaster: true
+                - dataArray: []
+                - cacheKeyTtl: ''
+                - filterBy: ''
+                - metadata: null
+                - editorMode: sql
+                - actionType: ''
                 - triggersOnFailure: []
+                - shouldUseLegacySql: false
+                - errorTransformer: >-
+                    // The variable 'data' allows you to reference the request's
+                    data in the transformer. 
+
+                    // example: return data.find(element => element.isError)
+
+                    return data.error
+                - databaseNameOverride: ''
                 - confirmationMessage: null
+                - isFetching: false
+                - changeset: ''
+                - rawData: null
+                - queryTriggerDelay: '0'
                 - watchedParams: []
+                - enableErrorTransformer: false
+                - enableBulkUpdates: false
                 - timestamp: 0
+                - importedQueryDefaults:
+                    ordered: []
+                - enableTransformer: false
+                - bulkUpdatePrimaryKey: ''
                 - runWhenPageLoads: false
+                - transformer: >-
+                    // type your code here
+
+                    // example: return formatDataAsArray(data).filter(row =>
+                    row.quantity > 20)
+
+                    return data
+                - tableName: ''
                 - queryTimeout: '10001'
                 - requireConfirmation: false
+                - queryFailureConditions: ''
+                - enableCaching: false
+                - databaseUsernameOverride: ''
+                - shouldEnableBatchQuerying: false
+                - doNotThrowOnNoOp: false
                 - queryThrottleTime: '750'
+                - notificationDuration: ''
+            createdAt: 2021-05-11T01:36:22.171Z
   urlFragmentDefinitions: []
   appStyles: ''
   appThemeId: null
@@ -43,7 +95,7 @@ appTemplate:
   customDocumentTitleEnabled: false
   preloadedAppJSLinks:
     array: []
-  version: null
+  version: 2.66.90
   responsiveLayoutDisabled: false
   createdAt: null
   loadingIndicatorsDisabled: false
