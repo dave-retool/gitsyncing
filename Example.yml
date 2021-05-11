@@ -22,12 +22,13 @@ appTemplate:
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: true
                 - showFailureToaster: true
-                - query: ''
+                - query: select * from users
                 - playgroundQueryUuid: ''
                 - playgroundQueryId: null
                 - privateParams: []
                 - triggersOnSuccess: []
                 - runWhenPageLoadsDelay: ''
+                - warningCodes: []
                 - data: null
                 - recordId: ''
                 - importedQueryInputs:
