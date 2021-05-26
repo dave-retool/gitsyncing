@@ -309,6 +309,31 @@ appTemplate:
                 height: 1
                 width: 2
             createdAt: 2021-05-26T05:47:37.417Z
+      - text1:
+          pluginTemplate:
+            id: text1
+            type: widget
+            subtype: TextWidget2
+            template:
+              ordered:
+                - heightType: auto
+                - horizontalAlign: left
+                - hidden: false
+                - imageWidth: fit
+                - verticalAlign: center
+                - tooltipText: ''
+                - value: "\U0001F44B **Hello {{ current_user.firstName || 'friend' }}!**"
+                - disableMarkdown: false
+                - overflowType: scroll
+            style:
+              ordered: []
+            position2:
+              position2:
+                row: 10
+                col: 5
+                height: 1
+                width: 3
+            createdAt: 2021-05-26T05:49:27.676Z
   urlFragmentDefinitions: []
   appStyles: ''
   appThemeId: null
