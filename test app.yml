@@ -225,7 +225,7 @@ appTemplate:
                 row: 2
                 col: 1
                 height: 8
-                width: 8
+                width: 10
             createdAt: 2021-05-26T02:57:46.354Z
   urlFragmentDefinitions: []
   appStyles: ''
