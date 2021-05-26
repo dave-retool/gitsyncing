@@ -322,7 +322,7 @@ appTemplate:
                 - imageWidth: fit
                 - verticalAlign: center
                 - tooltipText: ''
-                - value: "\U0001F44B **Hello {{ current_user.firstName || 'friend' }}!**"
+                - value: '## Test'
                 - disableMarkdown: false
                 - overflowType: scroll
             style:
