@@ -277,6 +277,63 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2021-05-26T02:57:56.674Z
+      - button1:
+          pluginTemplate:
+            id: button1
+            type: widget
+            subtype: ButtonWidget
+            template:
+              ordered:
+                - valueToCopy: ''
+                - color: '#3c92dc'
+                - internalUrlHashParams: ''
+                - exportFileType: csv
+                - buttonType: action
+                - exportTemplate: null
+                - url: ''
+                - newWindow: false
+                - value: Submit
+                - exportQuery: ''
+                - action: ''
+                - internalUrlQuery: ''
+                - internalUrlPath: ''
+                - exportFileName: ''
+                - loading: ''
+                - disabled: ''
+            style:
+              ordered: []
+            position2:
+              position2:
+                row: 1
+                col: 1
+                height: 1
+                width: 2
+            createdAt: 2021-05-26T05:47:37.417Z
+      - text1:
+          pluginTemplate:
+            id: text1
+            type: widget
+            subtype: TextWidget2
+            template:
+              ordered:
+                - heightType: auto
+                - horizontalAlign: left
+                - hidden: false
+                - imageWidth: fit
+                - verticalAlign: center
+                - tooltipText: ''
+                - value: '## Test'
+                - disableMarkdown: false
+                - overflowType: scroll
+            style:
+              ordered: []
+            position2:
+              position2:
+                row: 10
+                col: 5
+                height: 1
+                width: 3
+            createdAt: 2021-05-26T05:49:27.676Z
   urlFragmentDefinitions: []
   appStyles: ''
   appThemeId: null
