@@ -167,7 +167,7 @@ appTemplate:
                 - columnMappersRenderAsHTML:
                     ordered: []
                 - showRefreshButton: true
-                - pageSize: '10'
+                - pageSize: 5
                 - useDynamicColumnSettings: false
                 - actionButtonPosition: left
                 - bulkUpdateAction: ''
