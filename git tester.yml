@@ -58,7 +58,7 @@ appTemplate:
                 - timestamp: 0
                 - importedQueryDefaults:
                     ordered: []
-                - enableTransformer: true
+                - enableTransformer: false
                 - runWhenPageLoads: false
                 - transformer: >
                     // type your code here
