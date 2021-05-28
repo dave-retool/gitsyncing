@@ -99,9 +99,34 @@ appTemplate:
                 - alwaysShowPaginator: false
                 - columnColors:
                     ordered:
-                      - id: ''
+                      - '11': ''
+                      - '22': ''
+                      - '12': ''
+                      - '23': ''
+                      - '13': ''
+                      - '24': ''
+                      - '14': ''
+                      - '15': ''
+                      - '16': ''
+                      - '17': ''
+                      - '18': ''
+                      - '19': ''
                       - Name: ''
+                      - '0': ''
+                      - '1': ''
+                      - '2': ''
+                      - '3': ''
+                      - '4': ''
+                      - '5': ''
+                      - '6': ''
+                      - '7': ''
+                      - '8': ''
+                      - '9': ''
+                      - id: ''
                       - Rating: ''
+                      - '20': ''
+                      - '10': ''
+                      - '21': ''
                 - columnFrozenAlignments:
                     ordered: []
                 - allowMultiRowSelect: false
@@ -113,12 +138,37 @@ appTemplate:
                 - nextBeforeCursor: ''
                 - columnVisibility:
                     ordered:
-                      - id: true
-                      - Name: true
-                      - Rating: true
+                      - '11': true
+                      - '22': true
+                      - '12': true
+                      - '23': true
+                      - '13': true
+                      - '24': true
+                      - '14': true
+                      - '15': true
+                      - '16': true
+                      - '17': true
+                      - '18': true
+                      - '19': true
                       - name: true
-                      - email: true
+                      - Name: true
                       - sales: true
+                      - '0': true
+                      - '1': true
+                      - '2': true
+                      - '3': true
+                      - '4': true
+                      - '5': true
+                      - '6': true
+                      - '7': true
+                      - '8': true
+                      - '9': true
+                      - id: true
+                      - email: true
+                      - Rating: true
+                      - '20': true
+                      - '10': true
+                      - '21': true
                 - selectedPageIndex: '0'
                 - actionButtonColumnName: Actions
                 - filterStackType: and
@@ -183,6 +233,31 @@ appTemplate:
                     - sales
                     - Name
                     - Rating
+                    - '0'
+                    - '1'
+                    - '2'
+                    - '3'
+                    - '4'
+                    - '5'
+                    - '6'
+                    - '7'
+                    - '8'
+                    - '9'
+                    - '10'
+                    - '11'
+                    - '12'
+                    - '13'
+                    - '14'
+                    - '15'
+                    - '16'
+                    - '17'
+                    - '18'
+                    - '19'
+                    - '20'
+                    - '21'
+                    - '22'
+                    - '23'
+                    - '24'
                 - sort: null
                 - calculatedColumns: []
                 - selectedRow:
