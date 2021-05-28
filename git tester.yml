@@ -98,7 +98,10 @@ appTemplate:
                     ordered: []
                 - alwaysShowPaginator: false
                 - columnColors:
-                    ordered: []
+                    ordered:
+                      - id: ''
+                      - Name: ''
+                      - Rating: ''
                 - columnFrozenAlignments:
                     ordered: []
                 - allowMultiRowSelect: false
@@ -111,6 +114,8 @@ appTemplate:
                 - columnVisibility:
                     ordered:
                       - id: true
+                      - Name: true
+                      - Rating: true
                       - name: true
                       - email: true
                       - sales: true
@@ -134,7 +139,7 @@ appTemplate:
                 - columnMappersRenderAsHTML:
                     ordered: []
                 - showRefreshButton: true
-                - pageSize: '10'
+                - pageSize: 5
                 - useDynamicColumnSettings: false
                 - actionButtonPosition: left
                 - bulkUpdateAction: ''
@@ -176,6 +181,8 @@ appTemplate:
                     - name
                     - email
                     - sales
+                    - Name
+                    - Rating
                 - sort: null
                 - calculatedColumns: []
                 - selectedRow:
