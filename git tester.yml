@@ -58,13 +58,15 @@ appTemplate:
                 - timestamp: 0
                 - importedQueryDefaults:
                     ordered: []
-                - enableTransformer: false
+                - enableTransformer: true
                 - runWhenPageLoads: false
                 - transformer: >-
                     // type your code here
 
                     // example: return formatDataAsArray(data).filter(row =>
                     row.quantity > 20)
+
+                    return [data]
                 - queryTimeout: '10001'
                 - requireConfirmation: false
                 - type: GET
