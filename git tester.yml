@@ -60,13 +60,11 @@ appTemplate:
                     ordered: []
                 - enableTransformer: true
                 - runWhenPageLoads: false
-                - transformer: >-
+                - transformer: >
                     // type your code here
 
                     // example: return formatDataAsArray(data).filter(row =>
                     row.quantity > 20)
-
-                    return formatDataAsArray(data)
                 - queryTimeout: '10001'
                 - requireConfirmation: false
                 - type: GET
