@@ -1,0 +1,49 @@
+version: 43.0.9
+pageUuid: 9506827a-cd39-11eb-84d4-4b16d5f9941a
+appTemplate:
+  plugins:
+    ordered:
+      - query1:
+          pluginTemplate:
+            id: query1
+            type: datasource
+            subtype: SqlQueryUnified
+            resourceName: 78413203-80f1-4359-b6ff-173449395cd9
+            resourceDisplayName: k8s db
+            template:
+              ordered:
+                - queryRefreshTime: ''
+                - queryDisabledMessage: ''
+                - successMessage: ''
+                - queryDisabled: ''
+                - resourceNameOverride: ''
+                - runWhenModelUpdates: true
+                - query: ''
+                - privateParams: []
+                - triggersOnSuccess: []
+                - data: null
+                - showSuccessToaster: true
+                - triggersOnFailure: []
+                - confirmationMessage: null
+                - watchedParams: []
+                - timestamp: 0
+                - runWhenPageLoads: false
+                - queryTimeout: '10001'
+                - requireConfirmation: false
+                - queryThrottleTime: '750'
+  urlFragmentDefinitions: []
+  appStyles: ''
+  appThemeId: null
+  preloadedAppJavaScript: null
+  pageLoadValueOverrides: []
+  customDocumentTitle: ''
+  isGlobalWidget: false
+  isFetching: false
+  instrumentationEnabled: false
+  customDocumentTitleEnabled: false
+  preloadedAppJSLinks:
+    array: []
+  version: null
+  responsiveLayoutDisabled: false
+  createdAt: null
+  loadingIndicatorsDisabled: false
