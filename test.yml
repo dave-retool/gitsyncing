@@ -22,14 +22,7 @@ appTemplate:
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: true
                 - showFailureToaster: true
-                - query: |-
-                    SELECT
-                      *
-                    FROM
-                      SYSOBJECTS
-                    WHERE
-                      xtype = 'U';
-                    GO
+                - query: ''
                 - playgroundQueryUuid: ''
                 - playgroundQueryId: null
                 - privateParams: []
